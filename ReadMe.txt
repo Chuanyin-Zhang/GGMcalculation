@@ -45,7 +45,7 @@ When the minimum and maximum degree n to be set is equal, the program calculates
   
 [For compile and link]
 Fortran90, 132 Columns fixed format. Fortran compiler for any operating system. No external link library required.
-[Algorithmic formula] PAGravf4.5 User Reference
+[Algorithmic formula] PAGravf4.5 User Reference (https://www.zcyphygeodesy.com/en/)
 7.2 Calculation formulas of Earth gravity field from geopotential coefficient model
 7.3 Algorithms of normalized associative Legendre function and its derivative
 It is suggested that at the poles of the earth, the vertical deflection westward and the horizontal gravity gradient westward are not defined, and the relative calculation results are meaningless.
