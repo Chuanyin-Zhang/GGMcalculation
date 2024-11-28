@@ -1,10 +1,14 @@
+Fortran codes for calculation of the geometric and physical constants of Earth ellipsoid
+Chuanyin Zhang, zhangchy@casm.ac.cn, Chinese Academy of Surveying & Mapping
+
 [Algorithm purpose]
 From global geopotential coefficient model, calculate the model value of the height anomaly (m), gravity anomaly (mGal), gravity disturbance (mGal), vertical deflection vector (ʺ, south, west), disturbing gravity gradient (E, radial), tangential gravity gradient vector (E, north, west) or Laplace operator (E).
 When the minimum and maximum degree n to be set is equal, the program calculates the contribution of the degree n geopotential coefficients to the anomalous gravity field element, which can be employed to analyze and evaluate the spectral and space properties of the geopotential coefficient model.
+
 [Main program for test entrance]
-GGMallelementgrfd.f90
-The record format of the input calculation point file: ID (point no / point name), longitude (decimal degrees), latitude (decimal degrees), ellipsoidal height (m)......
-The record format of the output file reslt.txt: Behind the record of the calculation point file, appends 9 columns of model values of anomalous field elements which inculde the height anomaly (m), gravity anomaly (mGal), gravity disturbance (mGal), vertical deflection vector (ʺ, south, west), disturbing gravity gradient (E, radial), tangential gravity gradient vector (E, north, west) and Laplace operator (E).
+  GGMallelementgrfd.f90
+  The record format of the input calculation point file: ID (point no / point name), longitude (decimal degrees), latitude (decimal degrees), ellipsoidal height (m)......
+  The record format of the output file reslt.txt: Behind the record of the calculation point file, appends 9 columns of model values of anomalous field elements which inculde the height anomaly (m), gravity anomaly (mGal), gravity disturbance (mGal), vertical deflection vector (ʺ, south, west), disturbing gravity gradient (E, radial), tangential gravity gradient vector (E, north, west) and Laplace operator (E).
  
 [Main modules]
 (1) Algorithm module for spherical harmonic synthesis of anomalous gravity field elements
